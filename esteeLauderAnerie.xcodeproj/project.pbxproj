@@ -11,6 +11,7 @@
 		B15A46FC2A95A2F80042B0C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B15A46FB2A95A2F80042B0C8 /* Assets.xcassets */; };
 		B15A46FF2A95A2F80042B0C8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B15A46FE2A95A2F80042B0C8 /* Preview Assets.xcassets */; };
 		B1AECDE92A95A6EC007DAE86 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15A46F92A95A2F60042B0C8 /* ContentView.swift */; };
+		B1AECDF12A95B372007DAE86 /* OptimaReg.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B1AECDF02A95B372007DAE86 /* OptimaReg.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,8 @@
 		B15A46F92A95A2F60042B0C8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B15A46FB2A95A2F80042B0C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B15A46FE2A95A2F80042B0C8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B1AECDF02A95B372007DAE86 /* OptimaReg.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = OptimaReg.ttf; sourceTree = "<group>"; };
+		B1AECDF22A95B4ED007DAE86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +38,7 @@
 		B15A46EB2A95A2F60042B0C8 = {
 			isa = PBXGroup;
 			children = (
+				B1AECDF02A95B372007DAE86 /* OptimaReg.ttf */,
 				B15A46F62A95A2F60042B0C8 /* esteeLauderAnerie */,
 				B15A46F52A95A2F60042B0C8 /* Products */,
 			);
@@ -51,6 +55,7 @@
 		B15A46F62A95A2F60042B0C8 /* esteeLauderAnerie */ = {
 			isa = PBXGroup;
 			children = (
+				B1AECDF22A95B4ED007DAE86 /* Info.plist */,
 				B15A46F72A95A2F60042B0C8 /* esteeLauderAnerieApp.swift */,
 				B15A46F92A95A2F60042B0C8 /* ContentView.swift */,
 				B15A46FB2A95A2F80042B0C8 /* Assets.xcassets */,
@@ -125,6 +130,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1AECDF12A95B372007DAE86 /* OptimaReg.ttf in Resources */,
 				B15A46FF2A95A2F80042B0C8 /* Preview Assets.xcassets in Resources */,
 				B15A46FC2A95A2F80042B0C8 /* Assets.xcassets in Resources */,
 			);
@@ -269,6 +275,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"esteeLauderAnerie/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = esteeLauderAnerie/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -297,6 +304,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"esteeLauderAnerie/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = esteeLauderAnerie/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
