@@ -12,6 +12,7 @@
 		B15A46FF2A95A2F80042B0C8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B15A46FE2A95A2F80042B0C8 /* Preview Assets.xcassets */; };
 		B1AECDE92A95A6EC007DAE86 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15A46F92A95A2F60042B0C8 /* ContentView.swift */; };
 		B1AECDF12A95B372007DAE86 /* OptimaReg.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B1AECDF02A95B372007DAE86 /* OptimaReg.ttf */; };
+		B1AECDF42A95BA70007DAE86 /* mainMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1AECDF32A95BA70007DAE86 /* mainMenu.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		B15A46FE2A95A2F80042B0C8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B1AECDF02A95B372007DAE86 /* OptimaReg.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = OptimaReg.ttf; sourceTree = "<group>"; };
 		B1AECDF22A95B4ED007DAE86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		B1AECDF32A95BA70007DAE86 /* mainMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainMenu.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 				B1AECDF22A95B4ED007DAE86 /* Info.plist */,
 				B15A46F72A95A2F60042B0C8 /* esteeLauderAnerieApp.swift */,
 				B15A46F92A95A2F60042B0C8 /* ContentView.swift */,
+				B1AECDF32A95BA70007DAE86 /* mainMenu.swift */,
 				B15A46FB2A95A2F80042B0C8 /* Assets.xcassets */,
 				B15A46FD2A95A2F80042B0C8 /* Preview Content */,
 			);
@@ -143,6 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1AECDF42A95BA70007DAE86 /* mainMenu.swift in Sources */,
 				B1AECDE92A95A6EC007DAE86 /* ContentView.swift in Sources */,
 				B15A46F82A95A2F60042B0C8 /* esteeLauderAnerieApp.swift in Sources */,
 			);

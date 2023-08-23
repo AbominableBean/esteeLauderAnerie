@@ -29,7 +29,9 @@ struct ContentView: View {
                                 .aspectRatio(contentMode: .fill)
                             
                             Button(action: {
-                                
+                                NavigationLink(destination: mainMenu()) {
+                                    Text("main")
+                                }
                             }) {
                                 
                                 
@@ -39,7 +41,6 @@ struct ContentView: View {
                                     .padding()
                                     .background(Color(hue: 0.208, saturation: 0.59, brightness: 0.62))
                                     .cornerRadius(10)
-                                
                                 
                                 
                             }
