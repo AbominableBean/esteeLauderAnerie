@@ -18,32 +18,35 @@ struct ContentView: View {
                         
                         VStack {
                             
+                            Text("Introducing ...")
+                                .font(.custom("Optima-Regular", size: 25))
+                                .foregroundColor(Color(red: 0.653, green: 0.117, blue: 0.169))
+                                .multilineTextAlignment(.center)
+                                .padding(.top)
                             Text("Estee Lauder's New Nutritous Collection")
                                 .font(.custom("Optima-Regular", size: 30))
                                 .foregroundColor(Color(red: 0.845, green: 0.12, blue: 0.208))
                                 .multilineTextAlignment(.center)
-                                .padding(.top)
+                               
                             
                             Image("backgroundMain")
                                 .resizable()
                                 .aspectRatio(contentMode: .fill)
                             
-                            Button(action: {
+                        
                                 NavigationLink(destination: mainMenu()) {
-                                    Text("main")
+                                    Text("Start your Nutritous journey")
+                                        .font(.custom("Optima-Regular", size: 20))
+                                        .font(.headline)
+                                        .foregroundColor(Color(red: 0.845, green: 0.12, blue: 0.208))
+                                        .padding()
+                                        .background(Color(red: 0.675, green: 0.747, blue: 0.567))
+                                        .cornerRadius(10)
                                 }
-                            }) {
+                                    
                                 
-                                
-                                Text("Click here to learn more about Nutritious")
-                                    .font(.headline)
-                                    .foregroundColor(Color(red: 0.878, green: 0.76, blue: 0.801))
-                                    .padding()
-                                    .background(Color(hue: 0.208, saturation: 0.59, brightness: 0.62))
-                                    .cornerRadius(10)
-                                
-                                
-                            }
+                     
+                            
                             .padding()
                             
                         }
