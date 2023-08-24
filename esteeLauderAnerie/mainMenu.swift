@@ -29,12 +29,14 @@ struct mainMenu: View {
                                 .font(.custom("Optima-Regular", size: 18))
                                 .foregroundColor(Color(hue: 0.227, saturation: 0.921, brightness: 0.388))
                                 .multilineTextAlignment(.center)
-                                .padding()
+                                .padding([.top, .leading, .bottom])
                             
                             NavigationLink(destination: skinQuiz()) {
                                 Image("skinQuizIcon")
                                     .resizable()
-                                    .padding(.all)
+                                    .aspectRatio(contentMode: .fit)
+                                    .cornerRadius(6)
+                                    .padding([.top, .bottom, .trailing])
                                     .scaledToFit()
                                     .frame(width: 150, height: 150)
                                     .clipped()
@@ -73,6 +75,7 @@ struct mainMenu: View {
                             NavigationLink(destination: radiantLotion()) {
                                 Image("radiantLotion")
                                     .resizable()
+                                    .cornerRadius(6)
                                     .padding(.all, -1)
                                     .scaledToFit()
                                     .frame(width: 100, height: 100)
@@ -82,6 +85,7 @@ struct mainMenu: View {
                             NavigationLink(destination: meltingSoft()) {
                                 Image("meltingSoft")
                                     .resizable()
+                                    .cornerRadius(6)
                                     .padding(.all, -1)
                                     .scaledToFit()
                                     .frame(width: 100, height: 100)
@@ -93,15 +97,18 @@ struct mainMenu: View {
                             NavigationLink(destination: airyLotion()) {
                                 Image("airyLotion")
                                     .resizable()
+                                    .cornerRadius(6)
                                     .padding(.all, -1)
                                     .scaledToFit()
                                     .frame(width: 100, height: 100)
                                     .clipped()
+                                   
                             }
                             
                             NavigationLink(destination: foamCleanser()) {
                                 Image("foamCleanser")
                                     .resizable()
+                                    .cornerRadius(6)
                                     .padding(.all, -1)
                                     .scaledToFit()
                                     .frame(width: 100, height: 100)
