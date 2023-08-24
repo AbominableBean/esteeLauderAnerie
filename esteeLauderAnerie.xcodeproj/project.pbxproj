@@ -14,6 +14,11 @@
 		B1AECDF12A95B372007DAE86 /* OptimaReg.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B1AECDF02A95B372007DAE86 /* OptimaReg.ttf */; };
 		B1AECDF42A95BA70007DAE86 /* mainMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1AECDF32A95BA70007DAE86 /* mainMenu.swift */; };
 		B1CD8CCB2A97F0190058EDD7 /* skinQuiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1CD8CCA2A97F0190058EDD7 /* skinQuiz.swift */; };
+		B1CD8CCD2A98022D0058EDD7 /* productGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1CD8CCC2A98022D0058EDD7 /* productGame.swift */; };
+		B1CD8CCF2A9803C40058EDD7 /* radiantLotion.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1CD8CCE2A9803C40058EDD7 /* radiantLotion.swift */; };
+		B1CD8CD12A9804370058EDD7 /* meltingSoft.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1CD8CD02A9804370058EDD7 /* meltingSoft.swift */; };
+		B1CD8CD32A9804690058EDD7 /* foamCleanser.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1CD8CD22A9804690058EDD7 /* foamCleanser.swift */; };
+		B1CD8CD52A9804A50058EDD7 /* airyLotion.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1CD8CD42A9804A50058EDD7 /* airyLotion.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +31,11 @@
 		B1AECDF22A95B4ED007DAE86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		B1AECDF32A95BA70007DAE86 /* mainMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainMenu.swift; sourceTree = "<group>"; };
 		B1CD8CCA2A97F0190058EDD7 /* skinQuiz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = skinQuiz.swift; sourceTree = "<group>"; };
+		B1CD8CCC2A98022D0058EDD7 /* productGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = productGame.swift; sourceTree = "<group>"; };
+		B1CD8CCE2A9803C40058EDD7 /* radiantLotion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = radiantLotion.swift; sourceTree = "<group>"; };
+		B1CD8CD02A9804370058EDD7 /* meltingSoft.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = meltingSoft.swift; sourceTree = "<group>"; };
+		B1CD8CD22A9804690058EDD7 /* foamCleanser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = foamCleanser.swift; sourceTree = "<group>"; };
+		B1CD8CD42A9804A50058EDD7 /* airyLotion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = airyLotion.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,8 +73,13 @@
 				B15A46F72A95A2F60042B0C8 /* esteeLauderAnerieApp.swift */,
 				B15A46F92A95A2F60042B0C8 /* ContentView.swift */,
 				B1AECDF32A95BA70007DAE86 /* mainMenu.swift */,
+				B1CD8CD42A9804A50058EDD7 /* airyLotion.swift */,
+				B1CD8CD22A9804690058EDD7 /* foamCleanser.swift */,
+				B1CD8CD02A9804370058EDD7 /* meltingSoft.swift */,
+				B1CD8CCC2A98022D0058EDD7 /* productGame.swift */,
 				B1CD8CCA2A97F0190058EDD7 /* skinQuiz.swift */,
 				B15A46FB2A95A2F80042B0C8 /* Assets.xcassets */,
+				B1CD8CCE2A9803C40058EDD7 /* radiantLotion.swift */,
 				B15A46FD2A95A2F80042B0C8 /* Preview Content */,
 			);
 			path = esteeLauderAnerie;
@@ -149,9 +164,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1CD8CCD2A98022D0058EDD7 /* productGame.swift in Sources */,
 				B1AECDF42A95BA70007DAE86 /* mainMenu.swift in Sources */,
+				B1CD8CCF2A9803C40058EDD7 /* radiantLotion.swift in Sources */,
 				B1AECDE92A95A6EC007DAE86 /* ContentView.swift in Sources */,
+				B1CD8CD52A9804A50058EDD7 /* airyLotion.swift in Sources */,
 				B15A46F82A95A2F60042B0C8 /* esteeLauderAnerieApp.swift in Sources */,
+				B1CD8CD32A9804690058EDD7 /* foamCleanser.swift in Sources */,
+				B1CD8CD12A9804370058EDD7 /* meltingSoft.swift in Sources */,
 				B1CD8CCB2A97F0190058EDD7 /* skinQuiz.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

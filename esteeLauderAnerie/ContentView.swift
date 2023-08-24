@@ -23,7 +23,7 @@ struct ContentView: View {
                                 .foregroundColor(Color(red: 0.653, green: 0.117, blue: 0.169))
                                 .multilineTextAlignment(.center)
                                 .padding(.top)
-                            Text("Estee Lauder's New Nutritous Collection")
+                            Text("Estée Lauder's New Nutritous Collection")
                                 .font(.custom("Optima-Regular", size: 30))
                                 .foregroundColor(Color(red: 0.845, green: 0.12, blue: 0.208))
                                 .multilineTextAlignment(.center)
