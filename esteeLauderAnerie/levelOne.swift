@@ -7,7 +7,10 @@
 
 import SwiftUI
 
+
 struct levelOne: View {
+    @State private var scale: CGFloat = 1.0
+    
     var body: some View {
         
         ZStack {
@@ -22,9 +25,17 @@ struct levelOne: View {
                 Image("esteeGame1")
                     .resizable()
                     .aspectRatio(contentMode: .fit)
+                    .background(Color.blue.cornerRadius(10))
                     .padding()
+                    .scaleEffect(scale)
+                                .gesture(MagnificationGesture()
+                                            .onChanged { scale in
+                                                self.scale = scale.magnitude
+                                            }
+                                         )
                 
-                //add zoom in feature and click counter
+                //track mouse and add next level button only if all 4 were found
+                // https://developer.apple.com/forums/thread/678661
             }
             )
         }

@@ -27,6 +27,9 @@ struct productGame: View {
                             .multilineTextAlignment(.center)
                        
                         Text("Instructions:")
+                        Text("1. Zoom in to find Estee Lauder's Nutritous products.")
+                        Text("2. Click all 4 products to move onto the next level.")
+                        Text("3. When reached Level 3 you will receive a special prize!")
                         
                         NavigationLink(destination: levelOne()) {
                             Text("Start Level 1")
